@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع حجز مواعيد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>مرحبا بك في نظام حجز المواعيد</h1>
+        <p>سجّل موعدك بسهولة وفي أي وقت</p>
+        <a href="#booking" class="btn">احجز الآن</a>
+    </header>
+
+    <section class="services">
+        <h2>الخدمات المتوفرة</h2>
+        <ul>
+            <li>استشارة عامة</li>
+            <li>جلسة عناية شخصية</li>
+            <li>جلسة تدريب فردية</li>
+        </ul>
+    </section>
+
+    <section id="booking" class="booking-form">
+        <h2>نموذج حجز موعد</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <select required>
+                <option value="">اختر الخدمة</option>
+                <option value="استشارة">استشارة عامة</option>
+                <option value="عناية">جلسة عناية شخصية</option>
+                <option value="تدريب">جلسة تدريب فردية</option>
+            </select>
+            <input type="date" required>
+            <input type="time" required>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
