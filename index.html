@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع حجز مواعيد</title>
+    <meta name="description" content="A medical appointment booking website that allows users to view available clinic services and book an appointment easily through a simple form.">
+    <title>Appointment Booking Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="main-header">
-        <h1>مرحبا بك في نظام حجز المواعيد</h1>
-        <p>سجّل موعدك بسهولة وفي أي وقت</p>
-        <a href="#booking" class="btn">احجز الآن</a>
+        <h1>Welcome to the Appointment Booking System</h1>
+        <p>Book your appointment easily, anytime</p>
+        <a href="#booking" class="btn">Book Now</a>
     </header>
 
     <section class="services">
-        <h2>الخدمات المتوفرة</h2>
+        <h2>Available Services</h2>
         <ul>
-            <li>استشارة عامة</li>
-            <li>جلسة عناية شخصية</li>
-            <li>جلسة تدريب فردية</li>
+            <li>General Consultation</li>
+            <li>Personal Care Session</li>
+            <li>One-on-One Training Session</li>
         </ul>
     </section>
 
     <section id="booking" class="booking-form">
-        <h2>نموذج حجز موعد</h2>
+        <h2>Appointment Booking Form</h2>
         <form>
-            <input type="text" placeholder="الاسم الكامل" required>
-            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
             <select required>
-                <option value="">اختر الخدمة</option>
-                <option value="استشارة">استشارة عامة</option>
-                <option value="عناية">جلسة عناية شخصية</option>
-                <option value="تدريب">جلسة تدريب فردية</option>
+                <option value="">Select a Service</option>
+                <option value="consultation">General Consultation</option>
+                <option value="care">Personal Care Session</option>
+                <option value="training">One-on-One Training Session</option>
             </select>
             <input type="date" required>
             <input type="time" required>
-            <button type="submit">إرسال</button>
+            <button type="submit">Submit</button>
         </form>
     </section>
 
     <footer>
-        <p>© 2025 جميع الحقوق محفوظة</p>
+        <p>© 2025 All rights reserved</p>
     </footer>
 
 </body>
